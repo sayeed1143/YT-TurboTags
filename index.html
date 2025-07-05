@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>⚡ TurboTags - Free AI Tag Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <meta name="description" content="TurboTags helps you generate SEO-friendly tags & hashtags for YouTube, Instagram, and TikTok instantly using free AI and fallback support.">
+  <meta name="keywords" content="YouTube tags, Instagram hashtags, TikTok tags, free tag generator, AI SEO tags, social media growth, trending hashtags">
+  <meta name="author" content="TurboTags Team">
+</head>
+
+<body>
+  <header>
+    <img src="logo.png" alt="TurboTags Logo" style="height:60px; animation: bounce 1s infinite alternate;">
+    <h1>TurboTags ⚡</h1>
+    <p>Free AI-Powered Tags & Hashtags for YouTube, Instagram, TikTok</p>
+  </header>
+
+  <div class="ad-placeholder">
+    <p>[Your AdSense Top Banner Here]</p>
+  </div>
+
+  <div class="controls">
+    <label for="platform">Select Platform:</label>
+    <select id="platform">
+      <option value="youtube">YouTube</option>
+      <option value="instagram">Instagram</option>
+      <option value="tiktok">TikTok</option>
+    </select>
+
+    <input type="text" id="topicInput" placeholder="Enter topic (e.g. Gaming, Fitness)">
+    <button onclick="generateTags()">Generate Tags & Hashtags</button>
+  </div>
+
+  <div class="results">
+    <h2>Tags</h2>
+    <textarea id="tagsOutput" readonly></textarea>
+    <button onclick="copyToClipboard('tagsOutput')">Copy Tags</button>
+
+    <h2>Hashtags</h2>
+    <textarea id="hashtagsOutput" readonly></textarea>
+    <button onclick="copyToClipboard('hashtagsOutput')">Copy Hashtags</button>
+  </div>
+
+  <div class="ad-placeholder">
+    <p>[Your AdSense Bottom Banner Here]</p>
+  </div>
+
+  <footer>
+    <p>Made with ❤️ using free AI & fallback</p>
+    <a href="https://ko-fi.com/YOUR_KOFI_USERNAME" target="_blank">
+      <img src="https://storage.ko-fi.com/cdn/kofi5.png" alt="Buy Me a Coffee" style="height:36px;">
+    </a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
