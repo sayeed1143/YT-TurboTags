@@ -1,0 +1,20 @@
+{
+  "languages": {
+    "en": {
+      "platforms": {
+        "youtube": {
+          "tags": ["youtube", "youtubeshorts", "viral", "tutorial", "review", "funny", "music"],
+          "hashtags": ["#YouTube", "#Trending", "#ContentCreator", "#VideoMarketing"]
+        },
+        "instagram": {
+          "tags": [],
+          "hashtags": ["#InstaGood", "#Photography", "#Reels", "#InstaLife"]
+        },
+        "tiktok": {
+          "tags": [],
+          "hashtags": ["#TikTok", "#FYP", "#Dance", "#Viral"]
+        }
+      }
+    }
+  }
+}
