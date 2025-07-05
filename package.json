@@ -1,8 +1,7 @@
 {
   "name": "turbotags",
   "version": "1.0.0",
-  "scripts": {
-    "start": "vercel dev",
-    "build": "vercel build"
-  }
+ "scripts": {
+  "start": "node server.js"
+}
 }
